@@ -1,0 +1,11 @@
+import turtle as t
+t.dot(200,"red")
+t.dot(100,"white")
+t.dot(50,"red")
+t.up()
+t.bk(38)
+t.lt(90)
+t.pd()
+t.pencolor("white")
+t.pensize(20)
+t.fd(100)

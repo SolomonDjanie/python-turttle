@@ -1,0 +1,23 @@
+import turtle as t
+t.bgcolor("black")
+t.pencolor("white")
+t.speed(70)
+t.pensize(40)
+t.up()
+t.bk(180)
+t.rt(90)
+t.bk(180)
+t.pd()
+for k in range(4):
+    t.fd(300)
+    t.circle(50, 90)
+t.up()
+t.goto(-70,25)
+t.pd()
+
+t.circle(90)
+t.up()
+t.lt(120)
+t.fd(250)
+t.pd()
+t.dot(40)
